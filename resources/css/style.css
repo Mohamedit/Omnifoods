@@ -283,7 +283,7 @@ h1 {
     margin-right: 10px;
 }
 
-/*----------------- SECTION THREE -----------------*/
+/*----------------- SECTION four -----------------*/
 
 .cities {
     width: 80%;
@@ -333,3 +333,11 @@ city-feature {
     vertical-align: middle;
     margin-top: -5px
 }
+
+/*----------------- SECTION FIVE -----------------*/
+
+.customer {
+    width: 80%;
+    margin: 0 auto;
+}
+
