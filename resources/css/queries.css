@@ -1,0 +1,251 @@
+/* This for laptop's and wide screens 1200px => 75em*/
+@media only screen and (max-width: 75em) {
+    html {
+        font-size: 18px;
+    }
+    
+    h1 {
+        font-size: 160%;
+        font-weight: 300;
+        letter-spacing: 1px;
+        word-spacing: 4px;
+        text-transform: uppercase;
+        color: #fff;
+        margin: 0 0 20px 100px;
+    }
+
+    h2 {
+        text-align: center;
+        font-weight: 300;
+        letter-spacing: 1px;
+        word-spacing: 4px;
+        font-size: 140%;
+        padding-top: 40px;
+        text-transform: uppercase;
+    }
+    
+    .logo {
+        height: 90px;
+        width: auto;
+        float: left;
+        margin: 30px 0 0 100px;
+        overflow: hidden;
+    }
+    
+    .main-nav {
+        float: right;
+        list-style: none;
+        margin: 2.8em 2em 0 0;
+    }
+    
+    .iphone-app {
+        width: 45%;
+    }
+    
+    .steps-box:last-child {
+        padding: 3%;
+        margin-top: 3em;
+    }
+}
+
+
+
+/* This for big screens landscap ipad and tablets 1023px => 64em */
+@media only screen and (max-width: 63.9375em) {
+        html {
+        font-size: 17px;
+    }
+    
+    h1 {
+        font-size: 150%;
+        font-weight: 300;
+        letter-spacing: 1px;
+        word-spacing: 4px;
+        text-transform: uppercase;
+        color: #fff;
+        margin: 0 0 20px 100px;
+    }
+
+    h2 {
+        text-align: center;
+        font-weight: 300;
+        letter-spacing: 1px;
+        word-spacing: 4px;
+        font-size: 120%;
+        padding-top: 40px;
+        text-transform: uppercase;
+    }
+    
+    .logo {
+        height: 90px;
+        width: auto;
+        float: left;
+        margin: 30px 0 0 100px;
+        overflow: hidden;
+    }
+    
+    .main-nav {
+        float: right;
+        list-style: none;
+        margin: 2em 1.2em 0 0;
+    }
+    
+    .hero-text-box .full-btn {
+        margin: 0 1em 0 6em; 
+    }
+    
+    .iphone-app {
+        width: 50%;
+    }
+    
+    .steps-box:last-child {
+        padding: 3%;
+        margin-top: 2.8em;
+    }
+    
+    .work-steps {
+        margin-bottom: 2em;
+    }
+    
+    .work-steps:last-of-type {
+        margin-bottom: 2.5em;
+    }
+
+    .work-steps div {
+        border: 2px solid #e67e22;
+        border-radius: 50%;
+        display: inline-block;
+        color: #e67e22;
+        height: 2em;
+        width: 2em;
+        text-align: center;
+        float: left; 
+        padding: 4px;
+        font-size: 90%;
+        margin-right: 1em;
+    }
+    
+    .work-steps p {
+        font-size: 95%;
+    }
+    
+    .btn-app img {
+        height: 45px;
+        width: auto;
+        margin-right: 10px;
+    }
+    
+    .plan-price {
+        font-size: 200%;
+        font-weight: 100;
+        margin-bottom: 10px;
+        color: #e67e22;
+    }
+    
+    .contact-form {
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+
+
+/* This for ipad and tablets screens 767px => 48em */
+@media only screen and (max-width: 47.9375em) {
+/*
+    .main-nav {
+        display: none;
+    }
+*/
+    
+    .nav-mobile-icon {
+        display: inline-block;
+        margin-right: 1em;
+    }
+    
+    .main-nav {
+        float: left;
+        margin: 1em 0 0 1em;
+        display: none;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        border: 0;
+        display: block;
+        padding: 10px 0;
+        font-size: 90%;
+    }
+    
+    .sticky .main-nav {
+        float: left;
+        list-style: none;
+        margin: 0.7m 0 0 0.5em;
+        display: none;
+    }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        padding-bottom: 15px; 
+        color: #555;
+        text-decoration: none;
+        font-size: 90%;
+        text-transform: uppercase;
+    }
+    
+    .sticky .nav-mobile-icon {
+        display: inline-block;
+        margin: 0.6em 1em 0 0;
+    }
+    
+    .sticky .nav-mobile-icon i {
+        color: #555;
+    }
+    
+    .sticky .logo-black {
+        display: block;
+        margin: 1em 0 0 1em;
+    }
+    
+    .logo {
+        height: 90px;
+        width: auto;
+        float: left;
+        margin: 20px 0 0 40px;
+        overflow: hidden;
+    }
+    
+    .plans .row .col {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .plan-price span {
+        font-size: 50%;
+        font-weight: 300;
+    }
+    
+}
+
+
+/* This for small screens mobil phones 480px => 30em */
+@media only screen and (max-width: 30em) {
+    .logo {
+        height: 70px;
+        width: auto;
+        float: left;
+        margin: 20px 0 0 30px;
+        overflow: hidden;
+    }
+    
+    .hero-text-box .btn {
+        display: block;
+        width: 180px;
+        margin-top: 20px;
+    }
+}
